@@ -1,0 +1,152 @@
+@font-face {
+  font-family: china;
+  src: url(./PPNeueMachina-Light.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-family: china;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #222;
+  overflow-x: hidden;
+}
+section {
+  height: 100%;
+  width: 100%;
+  background-color: bisque;
+  position: relative;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 30px;
+}
+nav .part2 {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  font-weight: 500;
+}
+nav h1 {
+  font-size: 40px;
+  font-weight: 500;
+}
+nav button {
+  padding: 10px 20px;
+  border-radius: 50px;
+  border: solid black 1px;
+}
+.center {
+  height: 80%;
+  width: 100%;
+  display: flex;
+  padding: 30px;
+  /* background: #000; */
+}
+.center-part1 {
+  height: 100%;
+  width: 60%;
+}
+
+.center-part1 h2 {
+  font-size: 80px;
+  font-weight: 500;
+}
+.center-part1 p {
+  font-size: 18px;
+  color: #666;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.center-part1 button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: black;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 50px;
+  color: white;
+  border: none;
+}
+
+.center-part2 {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  justify-content: flex-end; /* Moves child element to the right */
+  align-items: center;
+}
+.center-part2 img {
+  height: 40%;
+  /* position: absolute; */
+  position: relative;
+
+  /* object-fit: cover; */
+}
+.section2 .services {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px;
+  padding: 30px;
+}
+.services h3 {
+  background-color: aliceblue;
+  font-size: 40px;
+  font-weight: 500;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+.services p {
+  font-size: 18px;
+  width: 40%;
+}
+.services-cards {
+  height: 70%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 30px;
+}
+.card {
+  flex-shrink: 0;
+  height: 400px;
+  width: 40%;
+  border: 3px solid #666;
+  border-radius: 30px;
+  box-shadow: 0 15px black;
+  padding: 30px;
+  display: flex;
+}
+.card .cardpart1 {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.card .cardpart1 h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.card .cardpart1 h4 {
+  font-size: 15px;
+  font-weight: 500;
+}
+.card .cardpart2 img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
